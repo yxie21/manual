@@ -6,16 +6,19 @@ Software: Eclipse
 ### 1. start the project and put in basic info 
 > Eclipse File – new – project 
 
-![image](https://github.com/yxie21/manual/blob/master/2.png?raw=true)
+![image](https://github.com/yxie21/manual/blob/master/1.jpg?raw=true)
 
 > Choose Maven Project (left)  ---- Use default workspace location (right)
 
-  
+![image](https://github.com/yxie21/manual/blob/master/2.png?raw=true)
 
 > Choose maven-archetype-quickstart
 
- 
+![image](https://github.com/yxie21/manual/blob/master/3.png?raw=true)
+
 > Put in some basic information, group id and artifact id. 
+
+![image](https://github.com/yxie21/manual/blob/master/4.png?raw=true)
  
 ### 2. put in the code you want to execute 
 
