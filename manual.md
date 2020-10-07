@@ -19,26 +19,29 @@ Software: Eclipse
  
 ### 2.	
 
-Under project in the left control panel, find App.java under src/main/java and then under Java2. Project. App.java is where you can put in the code you want (here shown is a simple default “helloworld” code. 
+> Under project in the left control panel, find App.java under src/main/java and then under Java2. Project. App.java is where you can put in the code you want (here shown is a simple default “helloworld” code. 
  
 
 
 ### 3.	
 
-Click on the project --- Run as --- 4 Maven Build
+> Click on the project --- Run as --- 4 Maven Build
  
 
-Goals: package
+> Goals: package
  
-Then, if this is successfully run, you should see the following message: 
+> Then, if this is successfully run, you should see the following message: 
  
 
 ### 4.	
 
-(this step is not necessary for all eclipse users)
+*(this step is not necessary for all eclipse users)*
 
-a)	Problem: 
+##### a)	Problem: 
+
 Failed to run successfully initially, and had the following message:
+
+'''
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project groupproject: Compilation failure: Compilation failure: 
 [ERROR] Source option 5 is no longer supported. Use 7 or later.
 [ERROR] Target option 5 is no longer supported. Use 7 or later.
@@ -49,6 +52,7 @@ Failed to run successfully initially, and had the following message:
 [ERROR] 
 [ERROR] For more information about the errors and possible solutions, please read the following articles:
 [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+'''
 
 b)	Solution: 
 In pom.xml, replace
