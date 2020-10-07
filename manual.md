@@ -3,7 +3,7 @@ Objective: create a maven package in the local repository.
 
 Software: Eclipse 
 
-### 1.
+### 1. start the project and put in basic info 
 > Eclipse File – new – project 
 
  ![avatar](/Users/yuxinxie/Desktop/manual/1.jpg)
@@ -17,13 +17,13 @@ Software: Eclipse
  
 > Put in some basic information, group id and artifact id. 
  
-### 2.	
+### 2. put in the code you want to execute 
 
 Under project in the left control panel, find App.java under src/main/java and then under Java2. Project. App.java is where you can put in the code you want (here shown is a simple default “helloworld” code. 
  
 
 
-### 3.	
+### 3. run the project (attaining the package)
 
 > Click on the project --- Run as --- 4 Maven Build
  
@@ -33,7 +33,7 @@ Under project in the left control panel, find App.java under src/main/java and t
 Then, if this is successfully run, you should see the following message: 
  
 
-### 4.	
+### 4. a change in pom.xml in case the following problem is encountered 
 
 *(this step is not necessary for all eclipse users)*
 
@@ -58,7 +58,7 @@ Failed to run successfully initially, and had the following message:
 
 ##### b)	Solution: 
 
-In pom.xml, replace
+In pom.xml, replace the following lines 
 
 ```
 
@@ -81,7 +81,7 @@ With
 
 Then, you should see the build success message in step 3!
 
-### 5.	
+### 5. save the package to a local repository 
 
 The last step is to turn it into a local repository. 
 
@@ -93,7 +93,7 @@ The last step is to turn it into a local repository.
 
 Then, you should see the build success message again!
 
-### 6.	
+### 6. check if everything is correct and get the jar file
 
 Lastly, run the following commands in the terminal
  
