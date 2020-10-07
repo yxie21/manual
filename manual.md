@@ -15,11 +15,11 @@ Software: Eclipse
 > Choose maven-archetype-quickstart
 
  
-> Then put in some basic information, group id and artifact id. 
+> Put in some basic information, group id and artifact id. 
  
 ### 2.	
 
-> Under project in the left control panel, find App.java under src/main/java and then under Java2. Project. App.java is where you can put in the code you want (here shown is a simple default “helloworld” code. 
+Under project in the left control panel, find App.java under src/main/java and then under Java2. Project. App.java is where you can put in the code you want (here shown is a simple default “helloworld” code. 
  
 
 
@@ -30,7 +30,7 @@ Software: Eclipse
 
 > Goals: package
  
-> Then, if this is successfully run, you should see the following message: 
+Then, if this is successfully run, you should see the following message: 
  
 
 ### 4.	
@@ -85,10 +85,10 @@ Then, you should see the build success message in step 3!
 
 The last step is to turn it into a local repository. 
 
-Click on the project—run as (again) – 4 Maven build (same as before)
+> Click on the project—run as (again) – 4 Maven build (same as before)
  
 
-(different) Goals: install 
+> *(different)* Goals: install 
  
 
 Then, you should see the build success message again!
@@ -98,5 +98,5 @@ Then, you should see the build success message again!
 Lastly, run the following commands in the terminal
  
 
-The “Project-0.0.1-SNAPSHOT.jar” file is the file you want to share with others!
+**The “Project-0.0.1-SNAPSHOT.jar” file is the file you want to share with others!**
 
