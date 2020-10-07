@@ -100,6 +100,8 @@ The last step is to turn it into a local repository.
 
 
 > *(different)* Goals: install 
+
+
 ![image](https://github.com/yxie21/manual/blob/master/11.png?raw=true)
  
 
