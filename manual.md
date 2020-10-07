@@ -41,7 +41,8 @@ Software: Eclipse
 
 Failed to run successfully initially, and had the following message:
 
-'''
+```
+
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project groupproject: Compilation failure: Compilation failure: 
 [ERROR] Source option 5 is no longer supported. Use 7 or later.
 [ERROR] Target option 5 is no longer supported. Use 7 or later.
@@ -52,7 +53,8 @@ Failed to run successfully initially, and had the following message:
 [ERROR] 
 [ERROR] For more information about the errors and possible solutions, please read the following articles:
 [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
-'''
+
+```
 
 b)	Solution: 
 In pom.xml, replace
