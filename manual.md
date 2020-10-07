@@ -6,7 +6,7 @@ Software: Eclipse
 ### 1. start the project and put in basic info 
 > Eclipse File – new – project 
 
-![2](/Users/yuxinxie/Desktop/2.png)
+![2](https://github.com/yxie21/manual//master/1.jpg)
 
 > Choose Maven Project (left)  ---- Use default workspace location (right)
 
