@@ -4,18 +4,19 @@ Objective: create a maven package in the local repository.
 Software: Eclipse 
 
 ### 1.
-	Eclipse File – new – project 
+> Eclipse File – new – project 
 
 ![alt text](1.jpg)
  
 
-  Choose Maven Project (left)  ---- Use default workspace location (right)
+> Choose Maven Project (left)  ---- Use default workspace location (right)
 
   
 
-   Choose maven-archetype-quickstart
+> Choose maven-archetype-quickstart
+
  
-Then put in some basic information, group id and artifact id. 
+> Then put in some basic information, group id and artifact id. 
  
 ### 2.	
 
