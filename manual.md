@@ -6,8 +6,7 @@ Software: Eclipse
 ### 1.
 > Eclipse File – new – project 
 
-![Image of Yaktocat](![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
- 
+ ![avatar](/Users/yuxinxie/Desktop/manual/1.jpg)
 
 > Choose Maven Project (left)  ---- Use default workspace location (right)
 
