@@ -56,20 +56,29 @@ Failed to run successfully initially, and had the following message:
 
 ```
 
-b)	Solution: 
+##### b)	Solution: 
+
 In pom.xml, replace
+
+```
+
  <properties>
     <project.build.sourceEncoding>UTF-8 </project.build.sourceEncoding>
   </properties>
 
+  ```
+
 With 
+
+```
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
        <java.version>1.8</java.version>
        <maven.compiler.source>1.8</maven.compiler.source>
        <maven.compiler.target>1.8</maven.compiler.target>
 </properties>
-  
+```
+
 Then, you should see the build success message in step 3!
 
 ### 5.	
