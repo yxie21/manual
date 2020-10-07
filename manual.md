@@ -9,11 +9,11 @@ Software: Eclipse
 ![alt text](1.jpg)
  
 
-Choose Maven Project (left)  ---- Use default workspace location (right)
+  Choose Maven Project (left)  ---- Use default workspace location (right)
 
   
 
-Choose maven-archetype-quickstart
+   Choose maven-archetype-quickstart
  
 Then put in some basic information, group id and artifact id. 
  
