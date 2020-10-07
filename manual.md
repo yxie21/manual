@@ -1,8 +1,10 @@
-Step One:
+#Step One:
 Objective: create a maven package in the local repository. 
+
 Software: Eclipse 
 
-1.	Eclipse File – new – project 
+### 1.
+	Eclipse File – new – project 
 
 ![alt text](1.jpg)
  
@@ -15,9 +17,15 @@ Choose maven-archetype-quickstart
  
 Then put in some basic information, group id and artifact id. 
  
-2.	Under project in the left control panel, find App.java under src/main/java and then under Java2. Project. App.java is where you can put in the code you want (here shown is a simple default “helloworld” code. 
+### 2.	
+
+Under project in the left control panel, find App.java under src/main/java and then under Java2. Project. App.java is where you can put in the code you want (here shown is a simple default “helloworld” code. 
  
-3.	Click on the project --- Run as --- 4 Maven Build
+
+
+### 3.	
+
+Click on the project --- Run as --- 4 Maven Build
  
 
 Goals: package
@@ -25,7 +33,10 @@ Goals: package
 Then, if this is successfully run, you should see the following message: 
  
 
-4.	(this step is not necessary for all eclipse users)
+### 4.	
+
+(this step is not necessary for all eclipse users)
+
 a)	Problem: 
 Failed to run successfully initially, and had the following message:
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project groupproject: Compilation failure: Compilation failure: 
@@ -38,6 +49,7 @@ Failed to run successfully initially, and had the following message:
 [ERROR] 
 [ERROR] For more information about the errors and possible solutions, please read the following articles:
 [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
 b)	Solution: 
 In pom.xml, replace
  <properties>
@@ -54,7 +66,9 @@ With
   
 Then, you should see the build success message in step 3!
 
-5.	The last step is to turn it into a local repository. 
+### 5.	
+
+The last step is to turn it into a local repository. 
 
 Click on the project—run as (again) – 4 Maven build (same as before)
  
@@ -64,7 +78,9 @@ Click on the project—run as (again) – 4 Maven build (same as before)
 
 Then, you should see the build success message again!
 
-6.	Lastly, run the following commands in the terminal
+### 6.	
+
+Lastly, run the following commands in the terminal
  
 
 The “Project-0.0.1-SNAPSHOT.jar” file is the file you want to share with others!
