@@ -1,4 +1,4 @@
-#Step One:
+# Step One:
 Objective: create a maven package in the local repository. 
 
 Software: Eclipse 
