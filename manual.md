@@ -4,7 +4,7 @@ Software: Eclipse
 
 1.	Eclipse File – new – project 
 
-![alt text](1.png)
+![alt text](1.jpg)
  
 
 Choose Maven Project (left)  ---- Use default workspace location (right)
